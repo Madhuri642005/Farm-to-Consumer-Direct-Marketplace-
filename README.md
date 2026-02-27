@@ -157,7 +157,8 @@ Supports digital transformation in rural markets
 
 Strengthens direct producer-consumer relationships
 
- Project Structure
+
+ ## Project Structure
 project/
 │
 ├── farmers/        # Farmer management module
@@ -175,12 +176,12 @@ cd project-folder
 2. Create Virtual Environment
 python -m venv venv
 source venv/bin/activate
-# Windows: venv\Scripts\activate
-3. Install Dependencies
+ Windows: venv\Scripts\activate
+4. Install Dependencies
 pip install -r requirements.txt
-4. Apply Database Migrations
+5. Apply Database Migrations
 python manage.py migrate
-5. Run Server
+6. Run Server
 python manage.py runserver
 
 Application runs at:
